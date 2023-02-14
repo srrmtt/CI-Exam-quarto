@@ -1,5 +1,5 @@
 # Final Project: Quarto-game
-
+All the work has been done with Matteo Magnaldi s296852. 
 For the final project, we tried different strategies to produce the best possible player for the quarto game. We implement some players based on different fixed rules, a player based on minmax strategy and finally a RL player. The code was written and adapted for the first version of the quarto game, contained inside the quarto.py, so do not consider the binary board. To not modify the **Quarto class**, we introduce the **ExtendQuarto class**, which inherits from the Quarto class and introduces some important functions for the different players. Using different strategies, we realize different players that implement a **choose_piece** and a **place_piece** method that are used by the play function of the Quarto class. The choose_piece, return the Id of the piece that is passed to the opponent, while the place_piece, return the position on the quarto board, where to place the selected piece.
 
 ## **Fixed rule Players**  
